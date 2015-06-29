@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Javascript Console</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-override.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <nav class="navbar navbar-default navbar-static-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">JS Console</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">Help</a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Help and Documentation</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="top-bar">
+                <div class="red-circle"><i class="fa fa-times" style="margin: 0px 1px 0px 1px;"></i></div>
+                <div class="yellow-circle"><i style="margin-top:2px;margin-left:-1px;" class="fa fa-minus"></i></div>
+                <div class="green-circle"><i style="" class="fa fa-expand"></i></div>
+                <p class="handle">Darky's Macbook Air</p>
+            </div>
+
+        <div class="main">
+            <div class="console" id="console">
+                <div id="static-console-1" contenteditable="false">Last login: Sun Jun 28 16:35:01 on ttys001 </div>
+                <div id="static-console-2" contenteditable="false"> darky@Abhishek-MacBook-Air:~% </div>
+                <div class="editable-console" id="editable-console-1" contenteditable="true" onkeypress="return _initiator(event)" onkeydown="return _initiator(event)"></div>
+            </div>
+        </div>
+
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
