@@ -103,13 +103,11 @@
 		//Up key pressed
 		if (e.keyCode == 38 && !e.shiftKey){
 			_history_handler.move_up();
-			console.log(_consoleObj._history_index);
 		}
 
 		//Down key pressed
 		if (e.keyCode == 40 && !e.shiftKey){
 			_history_handler.move_down();
-			console.log(_consoleObj._history_index);
 		}
 
 	}
