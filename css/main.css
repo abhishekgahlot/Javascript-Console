@@ -1,0 +1,244 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import "http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700";
+@import "http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic";
+
+html {
+	position:relative;
+	z-index:1;
+	min-height:100%;
+}
+
+body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-family:"Open Sans",sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	color:#7D8282;
+}
+
+h1.white,h2.white,h3.white,h4.white,h5.white,h6.white,label.white {
+	color:#fff;
+}
+
+h1.black,h2.black,h3.black,h4.black,h5.black,h6.black {
+	color:#000;
+}
+
+h1.subtitle,h2.subtitle,h3.subtitle,h4.subtitle,h5.subtitle,h6.subtitle {
+	margin-top:5px;
+	font-weight:300;
+	padding-top:3px;
+}
+
+p {
+	margin-bottom:8px;
+}
+
+.center {
+	text-align:center;
+}
+
+address {
+	font-size:14px;
+}
+
+hr.margin0 {
+	margin-bottom:0;
+}
+
+.nomargin {
+	margin:0!important;
+}
+
+.nopadding {
+	padding:0!important;
+}
+
+/*
+Font sizes
+.fss - font size small
+.fsm - font size medium
+.fsl - font size large
+.fsxl -	font size xtra large
+.fsxxl - font size xtra xtra large
+*/
+.fss {
+	font-size:14px;
+	font-weight:300;
+}
+
+.fsm {
+	font-size:16px;
+	font-weight:300;
+	line-height:1.6em;
+}
+
+.fsl {
+	font-size:18px;
+	font-weight:300;
+	line-height:1.6em;
+}
+
+.fsxl {
+	font-size:20px;
+	font-weight:300;
+	line-height:1.5em;
+}
+
+.fsxxl {
+	font-size:22px;
+	font-weight:300;
+}
+
+.bold {
+	font-weight:inherit;
+}
+
+.margintop {
+	margin-top:10px;
+}
+
+.marginleft {
+	margin-left:10px;
+}
+
+.marginright {
+	margin-right:10px;
+}
+
+.marginbottom {
+	margin-bottom:10px;
+}
+
+body{
+	background-color: #2B3D50;
+	border: #000;
+	font-size:13px;
+	min-height:100%;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color:#2B3D50;
+}
+
+.navbar-default .navbar-brand{
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand ,.navbar-default .navbar-nav>li>a,.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+	color: #fff;
+	text-decoration: underline;
+}
+
+.main{
+	border: blue;
+	width: 70%;
+	margin-left: 15%;
+	background: #33485e;
+	min-height: 550px;
+	border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.top-bar {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    height: 34px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    font-family: monospace;
+    padding: auto;
+    float: none;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+.red-circle {
+	display: inline-block;
+    background-color: #E94B35;
+    border-radius: 100%;
+    width: 17px;
+    height: 17px;
+    margin-top: 8px;
+    left: -46%;
+    position:relative;
+    color:#FFF6F6;
+}
+.yellow-circle {
+	display: inline-block;
+    background-color: #f0f000;
+    border-radius: 100%;
+    width: 17px;
+    height: 17px;
+    left: -46%;
+    top:1px;
+    position:relative;
+    color:#FFF6F6;
+}
+.green-circle {
+	display: inline-block;
+    background-color: #1AAF5C;
+    border-radius: 100%;
+    width: 17px;
+    height: 17px;
+    margin-top: 7px;
+    left: -46%;
+    position:relative;
+    color: #FFF6F6;
+    top: 0px;
+}
+
+.handle{
+	font-size: 16px;
+	color: #5E5454;
+ 	margin-top: -19px;
+}
+
+.console{
+	font-family: "Monaco";
+	/*color: #21CB6C; */
+	color: #21CB6C;
+	padding: 10px;
+	font-size: 13px;
+	min-height: 500px;
+}
+
+#static-console-1{
+	padding-right: 20px;
+	color:#65A0DF;
+}
+
+#static-console-2{
+	color:#65A0DF;
+	display: inline-block;
+	position: absolute;
+}
+
+.editable-console, .editable-console:focus{
+	border: none;
+}
+
+.console:hover{
+	cursor: text;
+}
+
+.editable-console{
+	display: block;
+    min-width: 74%;
+  	outline: none;
+  	margin-left: 235px;
+}
+.editable-console-tmp{
+	display: inline;
+    min-width: 74%;
+  	outline: none;
+  	margin-left: 235px;
+}
+
