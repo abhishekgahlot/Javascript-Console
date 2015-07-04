@@ -234,11 +234,31 @@ body{
     min-width: 74%;
   	outline: none;
   	margin-left: 235px;
+  	min-height: 500px;
 }
 .editable-console-tmp{
 	display: inline;
     min-width: 74%;
   	outline: none;
   	margin-left: 235px;
+}
+
+.autocomplete_list{
+	height: 150px;
+	overflow: scroll;
+	background-color: #f4f4f4;
+	width: 150px;
+	text-align: left;
+	box-shadow: 1px 1px 1px 1px #C3B7B7;
+	position: absolute;
+	margin-left: 400px;
+}
+
+.autocomplete_list ul{
+	text-decoration: none;
+	list-style-type: none;
+	margin-left: -35px;
+	height: 150px;
+	width: 150px;
 }
 
