@@ -10,4 +10,3 @@ Simple and Beautiful Javascript console built using HTML, CSS and JS itself. No 
 
 ![ScreenShot](https://raw.github.com/abhishekgahlot/javascript-console/master/screens/4.png)
 
-![ScreenShot](https://raw.github.com/abhishekgahlot/javascript-console/master/screens/5.png)
